@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYAiOSTemplate_Example' do
+  pod 'WYAiOSTemplate', :path => '../'
+
+  target 'WYAiOSTemplate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
