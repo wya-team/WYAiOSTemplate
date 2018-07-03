@@ -1,0 +1,16 @@
+PODS:
+  - WYAiOSTemplate (0.1.0)
+
+DEPENDENCIES:
+  - WYAiOSTemplate (from `../`)
+
+EXTERNAL SOURCES:
+  WYAiOSTemplate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WYAiOSTemplate: 4a36b6ee7c2cf1ac523f438a564c0e7baa17b58d
+
+PODFILE CHECKSUM: a127e31adc480820eff0ba9265157601d646348e
+
+COCOAPODS: 1.5.3
