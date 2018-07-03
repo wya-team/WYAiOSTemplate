@@ -1,4 +1,4 @@
-# android-ios
+# WYAiOSTemplate
 
 [![changelog][changelog-image]][changelog-url]
 

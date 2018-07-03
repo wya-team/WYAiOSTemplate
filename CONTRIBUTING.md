@@ -1,6 +1,6 @@
 # 贡献指南
 
-这篇指南会指导你如何为 `android-ios` 贡献一份自己的力量，请在你要提 `issue` 或者 `pull request` 之前花几分钟来阅读一遍这篇指南。
+这篇指南会指导你如何为 `WYAiOSTemplate` 贡献一份自己的力量，请在你要提 `issue` 或者 `pull request` 之前花几分钟来阅读一遍这篇指南。
 
 ## 行为准则
 
@@ -16,9 +16,9 @@
 
 ## Bugs
 
-我们使用 [`GitHub Issues`](https://github.com/wya-team/android-ios/issues) 来做 `bug` 追踪。
+我们使用 [`GitHub Issues`](https://github.com/wya-team/WYAiOSTemplate/issues) 来做 `bug` 追踪。
 
-在你报告一个 `bug` 之前，请先确保已经搜索过已有的 `issue` 和阅读了我们的 [常见问题](https://github.com/wya-team/android-ios/wiki/FAQ)。
+在你报告一个 `bug` 之前，请先确保已经搜索过已有的 `issue` 和阅读了我们的 [常见问题](https://github.com/wya-team/WYAiOSTemplate/wiki/FAQ)。
 
 ## 新增功能
 
@@ -43,16 +43,14 @@
 **在你发送 `Pull Request` 之前**，请确认你是按照下面的步骤来做的：
 
 1. 基于 [正确的分支](/)来做修改。
-2. 在项目根目录下运行了 `npm install`。
+2. 在项目根目录下运行了 `pod install`。
 3. 如果你修复了一个 `bug` 或者新增了一个功能，请确保写了相应的测试，这很重要。
-4. 确认所有的测试都是通过的 `npm run test`。 小贴士：开发过程中可以用 `npm test -- --watch TestName` 来运行指定的测试。
-5. 运行 `npm test -- -u` 来更新 [`jest snapshot`](http://facebook.github.io/jest/docs/en/snapshot-testing.html#snapshot-testing-with-jest) 并且把这些更新也提交上来（如果有的话）。
-6. 确保你的代码通过了 `lint` 检查 `npm run lint`. 小贴士: `Lint` 会在你 `git commit` 的时候自动运行。
+4. 确保你的代码通过了 `lint` 检查。
 
 
 ## 开发流程
 
-在你 `clone` 了 `android-ios`  的代码并且使用 `*** install` 安装完依赖后，你还可以运行下面几个常用的命令：
+在你 `clone` 了 `WYAiOSTemplate`  的代码并且使用 `*** install` 安装完依赖后，你还可以运行下面几个常用的命令：
 
 1. ...
 2. ...

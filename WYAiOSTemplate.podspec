@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/wya-team/WYAiOSTemplate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'JH' => 'YxHHLi@163.com' }
+  s.author           = { 'WYA' => '--@weiyian.com' }
   s.source           = { :git => 'https://github.com/wya-team/WYAiOSTemplate.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
