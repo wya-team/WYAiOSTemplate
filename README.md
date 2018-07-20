@@ -1,9 +1,9 @@
-# WYAiOSTemplate
+# WYAPickerView
 
-[![CI Status](https://img.shields.io/travis/acct<blob>=0xE69D8EE4BF8AE68192/WYAiOSTemplate.svg?style=flat)](https://travis-ci.org/acct<blob>=0xE69D8EE4BF8AE68192/WYAiOSTemplate)
-[![Version](https://img.shields.io/cocoapods/v/WYAiOSTemplate.svg?style=flat)](https://cocoapods.org/pods/WYAiOSTemplate)
-[![License](https://img.shields.io/cocoapods/l/WYAiOSTemplate.svg?style=flat)](https://cocoapods.org/pods/WYAiOSTemplate)
-[![Platform](https://img.shields.io/cocoapods/p/WYAiOSTemplate.svg?style=flat)](https://cocoapods.org/pods/WYAiOSTemplate)
+[![CI Status](https://img.shields.io/travis/1228506851@qq.com/WYAPickerView.svg?style=flat)](https://travis-ci.org/1228506851@qq.com/WYAPickerView)
+[![Version](https://img.shields.io/cocoapods/v/WYAPickerView.svg?style=flat)](https://cocoapods.org/pods/WYAPickerView)
+[![License](https://img.shields.io/cocoapods/l/WYAPickerView.svg?style=flat)](https://cocoapods.org/pods/WYAPickerView)
+[![Platform](https://img.shields.io/cocoapods/p/WYAPickerView.svg?style=flat)](https://cocoapods.org/pods/WYAPickerView)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-WYAiOSTemplate is available through [CocoaPods](https://cocoapods.org). To install
+WYAPickerView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WYAiOSTemplate'
+pod 'WYAPickerView'
 ```
 
 ## Author
 
-acct<blob>=0xE69D8EE4BF8AE68192, Li.junheng@139.com
+WYA, develop
 
 ## License
 
-WYAiOSTemplate is available under the MIT license. See the LICENSE file for more info.
+WYAPickerView is available under the MIT license. See the LICENSE file for more info.

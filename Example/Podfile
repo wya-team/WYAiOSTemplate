@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'WYAiOSTemplate_Example' do
-  pod 'WYAiOSTemplate', :path => '../'
+target 'WYAPickerView_Example' do
+  pod 'WYAPickerView', :path => '../'
 
-  target 'WYAiOSTemplate_Tests' do
+  target 'WYAPickerView_Tests' do
     inherit! :search_paths
 
     

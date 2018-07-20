@@ -1,6 +1,0 @@
-framework module Pods_WYAiOSTemplate_Example {
-  umbrella header "Pods-WYAiOSTemplate_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
