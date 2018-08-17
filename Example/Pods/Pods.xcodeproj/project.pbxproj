@@ -7,266 +7,222 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06B8C0C429765D350145246F4478A574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		10D5267F68780CE578A0CDD03C8986AF /* WYAPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F53C3BF6B86BC88D1C8FD3CD730A4B95 /* WYAPickerView.bundle */; };
-		1573FB1194324903CD2E9714117193FB /* Pods-WYAPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFAF629A81A9181D352D5D271BEA15B /* Pods-WYAPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21A8E589F42E2E1ED08BB04DDF806A00 /* Pods-WYAPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8537F382EFF0EB3416B8F5B02C66CA82 /* Pods-WYAPickerView_Tests-dummy.m */; };
-		3CF5088F8089B2A538D980992C32D28A /* Pods-WYAPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D138377203585AFABA21C458376F23EC /* Pods-WYAPickerView_Example-dummy.m */; };
-		493C31225DD52B366C950AF39B5E0027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5CE2E38626CB6F72DF7903AF462C7719 /* WYAAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498729DC0437288D323F5E99AC830E0 /* WYAAddressPickerView.m */; };
-		78F87FEA0595168C6A18D8F12A9882FA /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8529444302187C33FB4589FF52B23E11 /* Root.plist */; };
-		81EF34DAC39B09EE685F7798F16E2B93 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1877FF0407229C7103299AF5518AA42E /* en.lproj */; };
-		93D959E19A09E6B5EE2A703EBA4E4E35 /* WYAPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7926250F948FE29A343C44CBD2510618 /* WYAPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9888FE2ABDE3CBB7795076C5E159C6D4 /* WYASinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71504EFA4294D61B218F3E7ED4C599B3 /* WYASinglePickerView.m */; };
-		A1A664D386E6962EB07A65BBA3C1BA21 /* WYAAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB9D3085910803211FFF0E77EBBE895 /* WYAAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B13F2776DF683D19591A919B09995E9F /* WYASinglePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD3C54DD891519C8E41301C4BCD9EB6 /* WYASinglePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF5D52C3911A306E28B3F1CD4B1D37FA /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = B934FCDE63F98B4371C2DC3A35D3FF0B /* address.json */; };
-		D401EC9BD1F80F39E59BBD86AC7D5245 /* Pods-WYAPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFEE40694D5B7FA9FEF6852D9025FB7 /* Pods-WYAPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC4B1892DCFA0381BA846B9B05E03CCA /* WYAPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BF96EE5B800BDA4CFF0FF9F935241 /* WYAPickerView-dummy.m */; };
-		F9634D8BAD5BFAAC8DF51A160835F09B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		25DE753CF4489B97E84B3E188A9D9FBB /* Pods-WYAiOSTemplate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5581397BBCE72F6BF39D9E1A4E995AAD /* Pods-WYAiOSTemplate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34AEED3FE23CAFE1D4F8F38078D519C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		362BEB0EC6335E8A9F4982B4046F5CBE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E79092945094AD08A81243728C3C67 /* ReplaceMe.m */; };
+		566C40527660D7303348396C7370DA40 /* WYAiOSTemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1775077940C91006250E75DF33B59C /* WYAiOSTemplate-dummy.m */; };
+		996E36707A5E31F7394E317C7A6C5A53 /* WYAiOSTemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1DEB1C72C052F6A5123C747546713E /* WYAiOSTemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38838651F81B1A029CF1D5968B91BD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A895586ACC3A23EEB36C255D3F2B07F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B2110CE60ADA4BD23C337AB5F7EBA523 /* Pods-WYAiOSTemplate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DD09A750001B3600FFCB88A04E32AB /* Pods-WYAiOSTemplate_Tests-dummy.m */; };
+		FE54D99644D24138B36A163FA69CA14C /* Pods-WYAiOSTemplate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 103022411BE13B0374206A0C20CBA7E8 /* Pods-WYAiOSTemplate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFAADD65AE44643518EF11ECF36B8C67 /* Pods-WYAiOSTemplate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB63E235C7CEEDA4890C3D32C94017 /* Pods-WYAiOSTemplate_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02CAEBE32B8A0697BE47742AA7FFFC6D /* PBXContainerItemProxy */ = {
+		686C16D182868E1A855CC00333FFA6FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66260A9263C914FFCC81B6A39E8C30B6;
-			remoteInfo = "WYAPickerView-WYAPickerView";
+			remoteGlobalIDString = 7D3DA94A6710A56413B61C9768C0A27D;
+			remoteInfo = "Pods-WYAiOSTemplate_Example";
 		};
-		AF5B229CBD4EBE084B03392DE181DEB3 /* PBXContainerItemProxy */ = {
+		E751427911ADCF4B3A89E8608A098D76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F5D0782609B7D8D5D5A780BC3FDF0DD;
-			remoteInfo = WYAPickerView;
+			remoteGlobalIDString = 488D8FF83338518FCA2FFA12C16E5942;
+			remoteInfo = WYAiOSTemplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01077B7EE1F67EF4333C7D16A21BE49D /* Pods-WYAPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		018B8F04CAF67572E6EF4727DE6F7A17 /* Pods-WYAPickerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Example-resources.sh"; sourceTree = "<group>"; };
-		025D5EDF5C46B8F5BC6F8CDC6A0ED5D4 /* Pods_WYAPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAPickerView_Tests.framework; path = "Pods-WYAPickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15EE0522DEEE0C6DF8B55E71E90464F7 /* Pods-WYAPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1877FF0407229C7103299AF5518AA42E /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = WYAPickerView/Assets/WYAPickerView.bundle/en.lproj; sourceTree = "<group>"; };
-		1AB9574D1AE05B82AE7E896FCA210B63 /* ResourceBundle-WYAPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYAPickerView-Info.plist"; sourceTree = "<group>"; };
-		229E3DE53A1662B0474912E5C90AC8B7 /* Pods-WYAPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		365BF96EE5B800BDA4CFF0FF9F935241 /* WYAPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAPickerView-dummy.m"; sourceTree = "<group>"; };
-		37CD30E4D26A2130508ABF3189A15172 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38C176FEF85928854E48725C9B119769 /* ManualInstallation.md */ = {isa = PBXFileReference; includeInIndex = 1; name = ManualInstallation.md; path = Docs/ManualInstallation.md; sourceTree = "<group>"; };
-		3C6B3AE25E1258EF84761C337CEDAFB1 /* WYAPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYAPickerView.framework; path = WYAPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DFAF629A81A9181D352D5D271BEA15B /* Pods-WYAPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
-		5498729DC0437288D323F5E99AC830E0 /* WYAAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAAddressPickerView.m; path = WYAPickerView/Classes/WYAAddressPickerView.m; sourceTree = "<group>"; };
-		5544C4EE2027C0D7E24A446A1D01D032 /* Pods-WYAPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAPickerView_Example.modulemap"; sourceTree = "<group>"; };
-		55D0E3DD20B819D9CAFDC314E8C915FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		56003C2CD084164C267D7CB8370AE04F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E1D9AC66B365624510405D1657292B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6BA2289D3F7560035FAB52910DF9600B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EFEE40694D5B7FA9FEF6852D9025FB7 /* Pods-WYAPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		71504EFA4294D61B218F3E7ED4C599B3 /* WYASinglePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYASinglePickerView.m; path = WYAPickerView/Classes/WYASinglePickerView.m; sourceTree = "<group>"; };
-		71C0A7C46262B143DC2BA313C8DEA549 /* Pods-WYAPickerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		75B4C71B504BBD2A157427C973381D58 /* WYAPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAPickerView.xcconfig; sourceTree = "<group>"; };
-		7926250F948FE29A343C44CBD2510618 /* WYAPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAPickerView-umbrella.h"; sourceTree = "<group>"; };
-		7E242FF996CB23F843B0C580FE875489 /* WYAPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYAPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8529444302187C33FB4589FF52B23E11 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = WYAPickerView/Assets/WYAPickerView.bundle/Root.plist; sourceTree = "<group>"; };
-		8537F382EFF0EB3416B8F5B02C66CA82 /* Pods-WYAPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
-		921B58F6AE035A6C69064F1D3EE71182 /* Pods-WYAPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAPickerView_Tests.modulemap"; sourceTree = "<group>"; };
+		0C1DEB1C72C052F6A5123C747546713E /* WYAiOSTemplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAiOSTemplate-umbrella.h"; sourceTree = "<group>"; };
+		103022411BE13B0374206A0C20CBA7E8 /* Pods-WYAiOSTemplate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAiOSTemplate_Example-umbrella.h"; sourceTree = "<group>"; };
+		116D9601A4D6AE128636642AAB0849E5 /* WYAiOSTemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAiOSTemplate-prefix.pch"; sourceTree = "<group>"; };
+		1C8F347D4A432B317AE37FD303C93A47 /* WYAiOSTemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAiOSTemplate.modulemap; sourceTree = "<group>"; };
+		2BBFC592C828A0A8B0A9333DDD6F41E6 /* WYAiOSTemplate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYAiOSTemplate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CBA35D3CC7F859FE335C9E1D2F72197 /* Pods-WYAiOSTemplate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAiOSTemplate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3DE0CD74BCE588A8C1451EE7C13D4498 /* Pods-WYAiOSTemplate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAiOSTemplate_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		426A4EDAD97153BDADD366EE165C8CDD /* Pods-WYAiOSTemplate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAiOSTemplate_Tests-resources.sh"; sourceTree = "<group>"; };
+		4A03FFF377F0A40C9DF9A77FC2B4974C /* Pods_WYAiOSTemplate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAiOSTemplate_Tests.framework; path = "Pods-WYAiOSTemplate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5539FBF144B5ABE29F587EA94421A9E0 /* Pods_WYAiOSTemplate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAiOSTemplate_Example.framework; path = "Pods-WYAiOSTemplate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5581397BBCE72F6BF39D9E1A4E995AAD /* Pods-WYAiOSTemplate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAiOSTemplate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		58D5F1621017D59747020BDCD2D68BCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68BB63E235C7CEEDA4890C3D32C94017 /* Pods-WYAiOSTemplate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAiOSTemplate_Example-dummy.m"; sourceTree = "<group>"; };
+		6CCCDF6C1F05FF1648224B9067125D27 /* Pods-WYAiOSTemplate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAiOSTemplate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77A642B758746C7FDCE7BBC446629C96 /* Pods-WYAiOSTemplate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAiOSTemplate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C5FA9523EBB20B18E2997FBA2893B7F /* Pods-WYAiOSTemplate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAiOSTemplate_Tests.modulemap"; sourceTree = "<group>"; };
+		84E4279BCE238E9252B7D0E66960AC70 /* Pods-WYAiOSTemplate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAiOSTemplate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B09D16A8BD60D577D79758CC222F0D5 /* Pods-WYAiOSTemplate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAiOSTemplate_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AAD3C54DD891519C8E41301C4BCD9EB6 /* WYASinglePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYASinglePickerView.h; path = WYAPickerView/Classes/WYASinglePickerView.h; sourceTree = "<group>"; };
-		B195B246A68332F9047130EB0DC83C5D /* WYAPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAPickerView.modulemap; sourceTree = "<group>"; };
-		B2346671C5B88D53257376656A5ECC6B /* Pods-WYAPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B64DFCC8E3A61D6240CDC1CB25A11F82 /* Pods-WYAPickerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Tests-resources.sh"; sourceTree = "<group>"; };
-		B934FCDE63F98B4371C2DC3A35D3FF0B /* address.json */ = {isa = PBXFileReference; includeInIndex = 1; name = address.json; path = WYAPickerView/Assets/WYAPickerView.bundle/address.json; sourceTree = "<group>"; };
-		C13952FBEE75925E1D3C57A50695406B /* Pods_WYAPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAPickerView_Example.framework; path = "Pods-WYAPickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C22FEF9A9B4C4A188A33A1DD0D969CC9 /* Pods-WYAPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6F66A803E2516B325591B46D741CB22 /* Pods-WYAPickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAPickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CAB9D3085910803211FFF0E77EBBE895 /* WYAAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAAddressPickerView.h; path = WYAPickerView/Classes/WYAAddressPickerView.h; sourceTree = "<group>"; };
-		D138377203585AFABA21C458376F23EC /* Pods-WYAPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAPickerView_Example-dummy.m"; sourceTree = "<group>"; };
-		E4A3EF95F420B06BDAE3A9400705C15F /* Pods-WYAPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E75F17CFE1181D0E18CC3D95D6540E02 /* HowToUse.md */ = {isa = PBXFileReference; includeInIndex = 1; name = HowToUse.md; path = Docs/HowToUse.md; sourceTree = "<group>"; };
-		EB2AC068A4F084E3B1F22F2C307344E7 /* Pods-WYAPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F53C3BF6B86BC88D1C8FD3CD730A4B95 /* WYAPickerView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WYAPickerView.bundle; path = "WYAPickerView-WYAPickerView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8AEA0490498A1B4BEB91355B151F828 /* Pods-WYAPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FB11FC9CD4FBEDB2114D45E9C6634945 /* WYAPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAPickerView-prefix.pch"; sourceTree = "<group>"; };
-		FD206F976B452D36D8F0655B3F4D71BB /* WYAPickerView-0.1.0-Migration-guide.md */ = {isa = PBXFileReference; includeInIndex = 1; name = "WYAPickerView-0.1.0-Migration-guide.md"; path = "Docs/WYAPickerView-0.1.0-Migration-guide.md"; sourceTree = "<group>"; };
+		95F1C66667630D76911B74E2BE79201A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B954D9276DBC6D93F8C73F1B2A11240 /* Pods-WYAiOSTemplate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAiOSTemplate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A026965BEE3768022F0ADA7524F8F57A /* Pods-WYAiOSTemplate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAiOSTemplate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2816ED63AAEA982C04A329465A08647 /* WYAiOSTemplate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAiOSTemplate.xcconfig; sourceTree = "<group>"; };
+		B82C4435BBE1ED0A4A14A7C725838B10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B9E79092945094AD08A81243728C3C67 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WYAiOSTemplate/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C269F64092597677EF6E721B762B07EA /* Pods-WYAiOSTemplate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAiOSTemplate_Example-resources.sh"; sourceTree = "<group>"; };
+		C9D9A302E08D6EA3889FBDC065A5113C /* Pods-WYAiOSTemplate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAiOSTemplate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB1775077940C91006250E75DF33B59C /* WYAiOSTemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAiOSTemplate-dummy.m"; sourceTree = "<group>"; };
+		D427D607D9C19CC8616BAE4BA73D8EF0 /* Pods-WYAiOSTemplate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAiOSTemplate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DED498D88709388DF4729AC897E32EE8 /* WYAiOSTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYAiOSTemplate.framework; path = WYAiOSTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B742A31160637C9AA00CEC1B67C5F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DD09A750001B3600FFCB88A04E32AB /* Pods-WYAiOSTemplate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAiOSTemplate_Tests-dummy.m"; sourceTree = "<group>"; };
+		FED0A2C947084AC42D8369DAFB4D3435 /* Pods-WYAiOSTemplate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAiOSTemplate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEEDAE148F7EBA0CAF5E38CCB4D95BD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		548127933B45C3B6B50A57DF4B585A8D /* Frameworks */ = {
+		7D460543E8142E925E0198FB3419005B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38838651F81B1A029CF1D5968B91BD5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58E92B5DD549D51C1CFDFC808AFC80FF /* Frameworks */ = {
+		A45990346547FA71D25B6E9D19282A05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493C31225DD52B366C950AF39B5E0027 /* Foundation.framework in Frameworks */,
+				A895586ACC3A23EEB36C255D3F2B07F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C27FD32C71A486AE867155B1E24786D /* Frameworks */ = {
+		CFDC9719BCBCD985A6148CEF5AD12166 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9634D8BAD5BFAAC8DF51A160835F09B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F473674FE0F62F4D94CC51003272AC5F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06B8C0C429765D350145246F4478A574 /* Foundation.framework in Frameworks */,
+				34AEED3FE23CAFE1D4F8F38078D519C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0395F2D96898199EB4703927D40A5ADB /* WYAPickerView */ = {
+		16BAB292351630B8397CE5296E2C72DE /* WYAiOSTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				CAB9D3085910803211FFF0E77EBBE895 /* WYAAddressPickerView.h */,
-				5498729DC0437288D323F5E99AC830E0 /* WYAAddressPickerView.m */,
-				AAD3C54DD891519C8E41301C4BCD9EB6 /* WYASinglePickerView.h */,
-				71504EFA4294D61B218F3E7ED4C599B3 /* WYASinglePickerView.m */,
-				D57092F2CCBD796B5DEFF0852BC69CF4 /* Pod */,
-				4CC7507A643279068B18396704A76D22 /* Resources */,
-				570A7D73002FD3574A2C023FFA3684A5 /* Support Files */,
+				B9E79092945094AD08A81243728C3C67 /* ReplaceMe.m */,
+				D2B9A55C4FD5DA99A15D8023F04755A6 /* Pod */,
+				C0F3AE9AC8C237FFE1865E7EE6C43FA7 /* Support Files */,
 			);
-			name = WYAPickerView;
+			name = WYAiOSTemplate;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		192B085001C05C3C16855FA0355DE560 /* Pods-WYAPickerView_Tests */ = {
+		22095C5B8B89E3FD49FC829E633821C1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56003C2CD084164C267D7CB8370AE04F /* Info.plist */,
-				921B58F6AE035A6C69064F1D3EE71182 /* Pods-WYAPickerView_Tests.modulemap */,
-				C6F66A803E2516B325591B46D741CB22 /* Pods-WYAPickerView_Tests-acknowledgements.markdown */,
-				C22FEF9A9B4C4A188A33A1DD0D969CC9 /* Pods-WYAPickerView_Tests-acknowledgements.plist */,
-				8537F382EFF0EB3416B8F5B02C66CA82 /* Pods-WYAPickerView_Tests-dummy.m */,
-				71C0A7C46262B143DC2BA313C8DEA549 /* Pods-WYAPickerView_Tests-frameworks.sh */,
-				B64DFCC8E3A61D6240CDC1CB25A11F82 /* Pods-WYAPickerView_Tests-resources.sh */,
-				6EFEE40694D5B7FA9FEF6852D9025FB7 /* Pods-WYAPickerView_Tests-umbrella.h */,
-				15EE0522DEEE0C6DF8B55E71E90464F7 /* Pods-WYAPickerView_Tests.debug.xcconfig */,
-				EB2AC068A4F084E3B1F22F2C307344E7 /* Pods-WYAPickerView_Tests.release.xcconfig */,
-			);
-			name = "Pods-WYAPickerView_Tests";
-			path = "Target Support Files/Pods-WYAPickerView_Tests";
-			sourceTree = "<group>";
-		};
-		4CC7507A643279068B18396704A76D22 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B934FCDE63F98B4371C2DC3A35D3FF0B /* address.json */,
-				1877FF0407229C7103299AF5518AA42E /* en.lproj */,
-				8529444302187C33FB4589FF52B23E11 /* Root.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		570A7D73002FD3574A2C023FFA3684A5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6BA2289D3F7560035FAB52910DF9600B /* Info.plist */,
-				1AB9574D1AE05B82AE7E896FCA210B63 /* ResourceBundle-WYAPickerView-Info.plist */,
-				B195B246A68332F9047130EB0DC83C5D /* WYAPickerView.modulemap */,
-				75B4C71B504BBD2A157427C973381D58 /* WYAPickerView.xcconfig */,
-				365BF96EE5B800BDA4CFF0FF9F935241 /* WYAPickerView-dummy.m */,
-				FB11FC9CD4FBEDB2114D45E9C6634945 /* WYAPickerView-prefix.pch */,
-				7926250F948FE29A343C44CBD2510618 /* WYAPickerView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYAPickerView";
-			sourceTree = "<group>";
-		};
-		6E18B130DDD1E1BAA04BF5D5782331D7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0395F2D96898199EB4703927D40A5ADB /* WYAPickerView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6F23D7B4D5FEC59EAB0868343EC8CC12 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7AC02EAD35C7EE24521478EEF9D569CA /* Pods-WYAPickerView_Example */,
-				192B085001C05C3C16855FA0355DE560 /* Pods-WYAPickerView_Tests */,
+				6C8CEE583779339F8734FD9FC3BE1DB5 /* Pods-WYAiOSTemplate_Example */,
+				D38E283D3BEB029BF0638EA784899B4A /* Pods-WYAiOSTemplate_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7AC02EAD35C7EE24521478EEF9D569CA /* Pods-WYAPickerView_Example */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				37CD30E4D26A2130508ABF3189A15172 /* Info.plist */,
-				5544C4EE2027C0D7E24A446A1D01D032 /* Pods-WYAPickerView_Example.modulemap */,
-				F8AEA0490498A1B4BEB91355B151F828 /* Pods-WYAPickerView_Example-acknowledgements.markdown */,
-				B2346671C5B88D53257376656A5ECC6B /* Pods-WYAPickerView_Example-acknowledgements.plist */,
-				D138377203585AFABA21C458376F23EC /* Pods-WYAPickerView_Example-dummy.m */,
-				229E3DE53A1662B0474912E5C90AC8B7 /* Pods-WYAPickerView_Example-frameworks.sh */,
-				018B8F04CAF67572E6EF4727DE6F7A17 /* Pods-WYAPickerView_Example-resources.sh */,
-				4DFAF629A81A9181D352D5D271BEA15B /* Pods-WYAPickerView_Example-umbrella.h */,
-				01077B7EE1F67EF4333C7D16A21BE49D /* Pods-WYAPickerView_Example.debug.xcconfig */,
-				E4A3EF95F420B06BDAE3A9400705C15F /* Pods-WYAPickerView_Example.release.xcconfig */,
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
-			name = "Pods-WYAPickerView_Example";
-			path = "Target Support Files/Pods-WYAPickerView_Example";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C8CEE583779339F8734FD9FC3BE1DB5 /* Pods-WYAiOSTemplate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				95F1C66667630D76911B74E2BE79201A /* Info.plist */,
+				8B09D16A8BD60D577D79758CC222F0D5 /* Pods-WYAiOSTemplate_Example.modulemap */,
+				A026965BEE3768022F0ADA7524F8F57A /* Pods-WYAiOSTemplate_Example-acknowledgements.markdown */,
+				84E4279BCE238E9252B7D0E66960AC70 /* Pods-WYAiOSTemplate_Example-acknowledgements.plist */,
+				68BB63E235C7CEEDA4890C3D32C94017 /* Pods-WYAiOSTemplate_Example-dummy.m */,
+				77A642B758746C7FDCE7BBC446629C96 /* Pods-WYAiOSTemplate_Example-frameworks.sh */,
+				C269F64092597677EF6E721B762B07EA /* Pods-WYAiOSTemplate_Example-resources.sh */,
+				103022411BE13B0374206A0C20CBA7E8 /* Pods-WYAiOSTemplate_Example-umbrella.h */,
+				FED0A2C947084AC42D8369DAFB4D3435 /* Pods-WYAiOSTemplate_Example.debug.xcconfig */,
+				D427D607D9C19CC8616BAE4BA73D8EF0 /* Pods-WYAiOSTemplate_Example.release.xcconfig */,
+			);
+			name = "Pods-WYAiOSTemplate_Example";
+			path = "Target Support Files/Pods-WYAiOSTemplate_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6E18B130DDD1E1BAA04BF5D5782331D7 /* Development Pods */,
+				C0EBB2C21BA18197AD21DAFA3FEC2272 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EBC4EDDD0A7C62299F996334AA5F15F9 /* Products */,
-				6F23D7B4D5FEC59EAB0868343EC8CC12 /* Targets Support Files */,
+				DFD3280FB8F69D6ACE53515242354F34 /* Products */,
+				22095C5B8B89E3FD49FC829E633821C1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		C0EBB2C21BA18197AD21DAFA3FEC2272 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				16BAB292351630B8397CE5296E2C72DE /* WYAiOSTemplate */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D57092F2CCBD796B5DEFF0852BC69CF4 /* Pod */ = {
+		C0F3AE9AC8C237FFE1865E7EE6C43FA7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E75F17CFE1181D0E18CC3D95D6540E02 /* HowToUse.md */,
-				55D0E3DD20B819D9CAFDC314E8C915FC /* LICENSE */,
-				38C176FEF85928854E48725C9B119769 /* ManualInstallation.md */,
-				5E1D9AC66B365624510405D1657292B8 /* README.md */,
-				7E242FF996CB23F843B0C580FE875489 /* WYAPickerView.podspec */,
-				FD206F976B452D36D8F0655B3F4D71BB /* WYAPickerView-0.1.0-Migration-guide.md */,
+				F3B742A31160637C9AA00CEC1B67C5F4 /* Info.plist */,
+				1C8F347D4A432B317AE37FD303C93A47 /* WYAiOSTemplate.modulemap */,
+				B2816ED63AAEA982C04A329465A08647 /* WYAiOSTemplate.xcconfig */,
+				CB1775077940C91006250E75DF33B59C /* WYAiOSTemplate-dummy.m */,
+				116D9601A4D6AE128636642AAB0849E5 /* WYAiOSTemplate-prefix.pch */,
+				0C1DEB1C72C052F6A5123C747546713E /* WYAiOSTemplate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYAiOSTemplate";
+			sourceTree = "<group>";
+		};
+		D2B9A55C4FD5DA99A15D8023F04755A6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				58D5F1621017D59747020BDCD2D68BCE /* LICENSE */,
+				B82C4435BBE1ED0A4A14A7C725838B10 /* README.md */,
+				2BBFC592C828A0A8B0A9333DDD6F41E6 /* WYAiOSTemplate.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		EBC4EDDD0A7C62299F996334AA5F15F9 /* Products */ = {
+		D38E283D3BEB029BF0638EA784899B4A /* Pods-WYAiOSTemplate_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C13952FBEE75925E1D3C57A50695406B /* Pods_WYAPickerView_Example.framework */,
-				025D5EDF5C46B8F5BC6F8CDC6A0ED5D4 /* Pods_WYAPickerView_Tests.framework */,
-				F53C3BF6B86BC88D1C8FD3CD730A4B95 /* WYAPickerView.bundle */,
-				3C6B3AE25E1258EF84761C337CEDAFB1 /* WYAPickerView.framework */,
+				FEEDAE148F7EBA0CAF5E38CCB4D95BD0 /* Info.plist */,
+				7C5FA9523EBB20B18E2997FBA2893B7F /* Pods-WYAiOSTemplate_Tests.modulemap */,
+				6CCCDF6C1F05FF1648224B9067125D27 /* Pods-WYAiOSTemplate_Tests-acknowledgements.markdown */,
+				9B954D9276DBC6D93F8C73F1B2A11240 /* Pods-WYAiOSTemplate_Tests-acknowledgements.plist */,
+				F7DD09A750001B3600FFCB88A04E32AB /* Pods-WYAiOSTemplate_Tests-dummy.m */,
+				3DE0CD74BCE588A8C1451EE7C13D4498 /* Pods-WYAiOSTemplate_Tests-frameworks.sh */,
+				426A4EDAD97153BDADD366EE165C8CDD /* Pods-WYAiOSTemplate_Tests-resources.sh */,
+				5581397BBCE72F6BF39D9E1A4E995AAD /* Pods-WYAiOSTemplate_Tests-umbrella.h */,
+				C9D9A302E08D6EA3889FBDC065A5113C /* Pods-WYAiOSTemplate_Tests.debug.xcconfig */,
+				2CBA35D3CC7F859FE335C9E1D2F72197 /* Pods-WYAiOSTemplate_Tests.release.xcconfig */,
+			);
+			name = "Pods-WYAiOSTemplate_Tests";
+			path = "Target Support Files/Pods-WYAiOSTemplate_Tests";
+			sourceTree = "<group>";
+		};
+		DFD3280FB8F69D6ACE53515242354F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5539FBF144B5ABE29F587EA94421A9E0 /* Pods_WYAiOSTemplate_Example.framework */,
+				4A03FFF377F0A40C9DF9A77FC2B4974C /* Pods_WYAiOSTemplate_Tests.framework */,
+				DED498D88709388DF4729AC897E32EE8 /* WYAiOSTemplate.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,104 +230,84 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		15FD52FCB996F902BDF5EB01699B1473 /* Headers */ = {
+		A1ED5F7B6788732A1D3CC7B6DE3849A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1573FB1194324903CD2E9714117193FB /* Pods-WYAPickerView_Example-umbrella.h in Headers */,
+				FE54D99644D24138B36A163FA69CA14C /* Pods-WYAiOSTemplate_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2449B366C9A0EBF1D51EB8B4177904EA /* Headers */ = {
+		C3DC7E189FF045DD295F2BEFE03559EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A664D386E6962EB07A65BBA3C1BA21 /* WYAAddressPickerView.h in Headers */,
-				93D959E19A09E6B5EE2A703EBA4E4E35 /* WYAPickerView-umbrella.h in Headers */,
-				B13F2776DF683D19591A919B09995E9F /* WYASinglePickerView.h in Headers */,
+				996E36707A5E31F7394E317C7A6C5A53 /* WYAiOSTemplate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A22982E503627B82FB6E9EE658D891B7 /* Headers */ = {
+		D6F4665846761C555408DBCAA18F57BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D401EC9BD1F80F39E59BBD86AC7D5245 /* Pods-WYAPickerView_Tests-umbrella.h in Headers */,
+				25DE753CF4489B97E84B3E188A9D9FBB /* Pods-WYAiOSTemplate_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3F5D0782609B7D8D5D5A780BC3FDF0DD /* WYAPickerView */ = {
+		0A54B715C96233CD22F1F4B721E162F4 /* Pods-WYAiOSTemplate_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50507592E45870DBE274D50A2D3038E2 /* Build configuration list for PBXNativeTarget "WYAPickerView" */;
+			buildConfigurationList = 9C015D2AFBA3F0F6ECE50A11D44A18F9 /* Build configuration list for PBXNativeTarget "Pods-WYAiOSTemplate_Tests" */;
 			buildPhases = (
-				E21067BBEE828DDB4AD7C7689514C4F6 /* Sources */,
-				F473674FE0F62F4D94CC51003272AC5F /* Frameworks */,
-				BC1FAD99D4554B32F09E60EC1A1815B5 /* Resources */,
-				2449B366C9A0EBF1D51EB8B4177904EA /* Headers */,
+				DC8C6BBA32864638F1F0F15417C78229 /* Sources */,
+				CFDC9719BCBCD985A6148CEF5AD12166 /* Frameworks */,
+				D6F4665846761C555408DBCAA18F57BE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				669399EA72EC27FA7EA2C736F8C92AFD /* PBXTargetDependency */,
+				E85B86EDF9332EEAA9233E8A781548A4 /* PBXTargetDependency */,
 			);
-			name = WYAPickerView;
-			productName = WYAPickerView;
-			productReference = 3C6B3AE25E1258EF84761C337CEDAFB1 /* WYAPickerView.framework */;
+			name = "Pods-WYAiOSTemplate_Tests";
+			productName = "Pods-WYAiOSTemplate_Tests";
+			productReference = 4A03FFF377F0A40C9DF9A77FC2B4974C /* Pods_WYAiOSTemplate_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		66260A9263C914FFCC81B6A39E8C30B6 /* WYAPickerView-WYAPickerView */ = {
+		488D8FF83338518FCA2FFA12C16E5942 /* WYAiOSTemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1F452120C0583D3E3CC3059E6D63419 /* Build configuration list for PBXNativeTarget "WYAPickerView-WYAPickerView" */;
+			buildConfigurationList = 51A384FE8ADB20FAB21F6B296FD9765E /* Build configuration list for PBXNativeTarget "WYAiOSTemplate" */;
 			buildPhases = (
-				0862ACE422C15C9E7015AAB52CFCB38D /* Sources */,
-				548127933B45C3B6B50A57DF4B585A8D /* Frameworks */,
-				BCEEFFBBDD87B7F97001CD19F20A1826 /* Resources */,
+				9F732F9DC5F995796BC8EA7A9562A381 /* Sources */,
+				7D460543E8142E925E0198FB3419005B /* Frameworks */,
+				C3DC7E189FF045DD295F2BEFE03559EF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "WYAPickerView-WYAPickerView";
-			productName = "WYAPickerView-WYAPickerView";
-			productReference = F53C3BF6B86BC88D1C8FD3CD730A4B95 /* WYAPickerView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		CC1FCE2A476DA36730BDA6B510B0BB06 /* Pods-WYAPickerView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9818482B4ADE24B74EDE179E3FCCEB14 /* Build configuration list for PBXNativeTarget "Pods-WYAPickerView_Example" */;
-			buildPhases = (
-				65EB3473A0D409893483516A1F6DE639 /* Sources */,
-				5C27FD32C71A486AE867155B1E24786D /* Frameworks */,
-				15FD52FCB996F902BDF5EB01699B1473 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0F187DF2685E168E36310AA29798F2C5 /* PBXTargetDependency */,
-			);
-			name = "Pods-WYAPickerView_Example";
-			productName = "Pods-WYAPickerView_Example";
-			productReference = C13952FBEE75925E1D3C57A50695406B /* Pods_WYAPickerView_Example.framework */;
+			name = WYAiOSTemplate;
+			productName = WYAiOSTemplate;
+			productReference = DED498D88709388DF4729AC897E32EE8 /* WYAiOSTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D879F6CB646CC1ADB5BB660845B9749D /* Pods-WYAPickerView_Tests */ = {
+		7D3DA94A6710A56413B61C9768C0A27D /* Pods-WYAiOSTemplate_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EFE63799C33ADF9D72DDFF68F0D7903 /* Build configuration list for PBXNativeTarget "Pods-WYAPickerView_Tests" */;
+			buildConfigurationList = 0CE62994BAE90B9F203C591A63B52845 /* Build configuration list for PBXNativeTarget "Pods-WYAiOSTemplate_Example" */;
 			buildPhases = (
-				41E5AF24666979DD919BE2D73E754F60 /* Sources */,
-				58E92B5DD549D51C1CFDFC808AFC80FF /* Frameworks */,
-				A22982E503627B82FB6E9EE658D891B7 /* Headers */,
+				13BDDE22648DD827B816A0B3B4A674C4 /* Sources */,
+				A45990346547FA71D25B6E9D19282A05 /* Frameworks */,
+				A1ED5F7B6788732A1D3CC7B6DE3849A0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5AD8DF2514712D65540B24C843A4B932 /* PBXTargetDependency */,
 			);
-			name = "Pods-WYAPickerView_Tests";
-			productName = "Pods-WYAPickerView_Tests";
-			productReference = 025D5EDF5C46B8F5BC6F8CDC6A0ED5D4 /* Pods_WYAPickerView_Tests.framework */;
+			name = "Pods-WYAiOSTemplate_Example";
+			productName = "Pods-WYAiOSTemplate_Example";
+			productReference = 5539FBF144B5ABE29F587EA94421A9E0 /* Pods_WYAiOSTemplate_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -391,127 +327,66 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EBC4EDDD0A7C62299F996334AA5F15F9 /* Products */;
+			productRefGroup = DFD3280FB8F69D6ACE53515242354F34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC1FCE2A476DA36730BDA6B510B0BB06 /* Pods-WYAPickerView_Example */,
-				D879F6CB646CC1ADB5BB660845B9749D /* Pods-WYAPickerView_Tests */,
-				3F5D0782609B7D8D5D5A780BC3FDF0DD /* WYAPickerView */,
-				66260A9263C914FFCC81B6A39E8C30B6 /* WYAPickerView-WYAPickerView */,
+				7D3DA94A6710A56413B61C9768C0A27D /* Pods-WYAiOSTemplate_Example */,
+				0A54B715C96233CD22F1F4B721E162F4 /* Pods-WYAiOSTemplate_Tests */,
+				488D8FF83338518FCA2FFA12C16E5942 /* WYAiOSTemplate */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		BC1FAD99D4554B32F09E60EC1A1815B5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10D5267F68780CE578A0CDD03C8986AF /* WYAPickerView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCEEFFBBDD87B7F97001CD19F20A1826 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF5D52C3911A306E28B3F1CD4B1D37FA /* address.json in Resources */,
-				81EF34DAC39B09EE685F7798F16E2B93 /* en.lproj in Resources */,
-				78F87FEA0595168C6A18D8F12A9882FA /* Root.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0862ACE422C15C9E7015AAB52CFCB38D /* Sources */ = {
+		13BDDE22648DD827B816A0B3B4A674C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFAADD65AE44643518EF11ECF36B8C67 /* Pods-WYAiOSTemplate_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41E5AF24666979DD919BE2D73E754F60 /* Sources */ = {
+		9F732F9DC5F995796BC8EA7A9562A381 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A8E589F42E2E1ED08BB04DDF806A00 /* Pods-WYAPickerView_Tests-dummy.m in Sources */,
+				362BEB0EC6335E8A9F4982B4046F5CBE /* ReplaceMe.m in Sources */,
+				566C40527660D7303348396C7370DA40 /* WYAiOSTemplate-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65EB3473A0D409893483516A1F6DE639 /* Sources */ = {
+		DC8C6BBA32864638F1F0F15417C78229 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF5088F8089B2A538D980992C32D28A /* Pods-WYAPickerView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E21067BBEE828DDB4AD7C7689514C4F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CE2E38626CB6F72DF7903AF462C7719 /* WYAAddressPickerView.m in Sources */,
-				EC4B1892DCFA0381BA846B9B05E03CCA /* WYAPickerView-dummy.m in Sources */,
-				9888FE2ABDE3CBB7795076C5E159C6D4 /* WYASinglePickerView.m in Sources */,
+				B2110CE60ADA4BD23C337AB5F7EBA523 /* Pods-WYAiOSTemplate_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F187DF2685E168E36310AA29798F2C5 /* PBXTargetDependency */ = {
+		5AD8DF2514712D65540B24C843A4B932 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WYAPickerView;
-			target = 3F5D0782609B7D8D5D5A780BC3FDF0DD /* WYAPickerView */;
-			targetProxy = AF5B229CBD4EBE084B03392DE181DEB3 /* PBXContainerItemProxy */;
+			name = WYAiOSTemplate;
+			target = 488D8FF83338518FCA2FFA12C16E5942 /* WYAiOSTemplate */;
+			targetProxy = E751427911ADCF4B3A89E8608A098D76 /* PBXContainerItemProxy */;
 		};
-		669399EA72EC27FA7EA2C736F8C92AFD /* PBXTargetDependency */ = {
+		E85B86EDF9332EEAA9233E8A781548A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "WYAPickerView-WYAPickerView";
-			target = 66260A9263C914FFCC81B6A39E8C30B6 /* WYAPickerView-WYAPickerView */;
-			targetProxy = 02CAEBE32B8A0697BE47742AA7FFFC6D /* PBXContainerItemProxy */;
+			name = "Pods-WYAiOSTemplate_Example";
+			target = 7D3DA94A6710A56413B61C9768C0A27D /* Pods-WYAiOSTemplate_Example */;
+			targetProxy = 686C16D182868E1A855CC00333FFA6FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1823E55167953F851409FC4AD8E34F4D /* Debug */ = {
+		41842762EE05C6A041B37143C72F055A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75B4C71B504BBD2A157427C973381D58 /* WYAPickerView.xcconfig */;
+			baseConfigurationReference = C9D9A302E08D6EA3889FBDC065A5113C /* Pods-WYAiOSTemplate_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAPickerView";
-				INFOPLIST_FILE = "Target Support Files/WYAPickerView/ResourceBundle-WYAPickerView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WYAPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		196DAEAC8513F9F9038016FADB88E357 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75B4C71B504BBD2A157427C973381D58 /* WYAPickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAPickerView";
-				INFOPLIST_FILE = "Target Support Files/WYAPickerView/ResourceBundle-WYAPickerView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WYAPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		1E084D983DAD7EC746FA85A97E794F92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01077B7EE1F67EF4333C7D16A21BE49D /* Pods-WYAPickerView_Example.debug.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,17 +396,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAPickerView_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAiOSTemplate_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAPickerView_Example/Pods-WYAPickerView_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAiOSTemplate_Tests/Pods-WYAiOSTemplate_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WYAPickerView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -540,9 +415,9 @@
 			};
 			name = Debug;
 		};
-		2F8C505DBC69425D4EC9267225E00562 /* Release */ = {
+		4D496A9D073B3D2409B6FFEB86C317BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB2AC068A4F084E3B1F22F2C307344E7 /* Pods-WYAPickerView_Tests.release.xcconfig */;
+			baseConfigurationReference = B2816ED63AAEA982C04A329465A08647 /* WYAiOSTemplate.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -553,19 +428,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAPickerView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/WYAiOSTemplate/WYAiOSTemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYAiOSTemplate/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAPickerView_Tests/Pods-WYAPickerView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WYAPickerView_Tests;
+				MODULEMAP_FILE = "Target Support Files/WYAiOSTemplate/WYAiOSTemplate.modulemap";
+				PRODUCT_MODULE_NAME = WYAiOSTemplate;
+				PRODUCT_NAME = WYAiOSTemplate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -573,7 +446,37 @@
 			};
 			name = Release;
 		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+		836E796FFC5C492948259871D37A94D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2816ED63AAEA982C04A329465A08647 /* WYAiOSTemplate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYAiOSTemplate/WYAiOSTemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYAiOSTemplate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYAiOSTemplate/WYAiOSTemplate.modulemap";
+				PRODUCT_MODULE_NAME = WYAiOSTemplate;
+				PRODUCT_NAME = WYAiOSTemplate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -605,6 +508,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -629,76 +533,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		53B852044F33DD23FB0C486D27A30501 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75B4C71B504BBD2A157427C973381D58 /* WYAPickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYAPickerView/WYAPickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WYAPickerView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WYAPickerView/WYAPickerView.modulemap";
-				PRODUCT_NAME = WYAPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5E2F9FD84D15DECCAB8B7F86168C25E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4A3EF95F420B06BDAE3A9400705C15F /* Pods-WYAPickerView_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAPickerView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAPickerView_Example/Pods-WYAPickerView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WYAPickerView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -730,6 +571,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -750,16 +592,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D4C1BDDA20E8A8DAA148288176F2A6B2 /* Debug */ = {
+		BAE09B97ED858C8F1F8D87D35A28A536 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15EE0522DEEE0C6DF8B55E71E90464F7 /* Pods-WYAPickerView_Tests.debug.xcconfig */;
+			baseConfigurationReference = FED0A2C947084AC42D8369DAFB4D3435 /* Pods-WYAiOSTemplate_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -769,17 +611,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAPickerView_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAiOSTemplate_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAPickerView_Tests/Pods-WYAPickerView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAiOSTemplate_Example/Pods-WYAiOSTemplate_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WYAPickerView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -788,10 +630,11 @@
 			};
 			name = Debug;
 		};
-		D5371216F3C608AE1BC7B2CBACF3FDAA /* Release */ = {
+		BBE35D1D56D2FD2C133D7C907BE8BDBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75B4C71B504BBD2A157427C973381D58 /* WYAPickerView.xcconfig */;
+			baseConfigurationReference = 2CBA35D3CC7F859FE335C9E1D2F72197 /* Pods-WYAiOSTemplate_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -801,16 +644,53 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYAPickerView/WYAPickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WYAPickerView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAiOSTemplate_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WYAPickerView/WYAPickerView.modulemap";
-				PRODUCT_NAME = WYAPickerView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAiOSTemplate_Tests/Pods-WYAiOSTemplate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDDDDB20F6F2069C328185BAE69AE56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D427D607D9C19CC8616BAE4BA73D8EF0 /* Pods-WYAiOSTemplate_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAiOSTemplate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAiOSTemplate_Example/Pods-WYAiOSTemplate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -821,47 +701,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0CE62994BAE90B9F203C591A63B52845 /* Build configuration list for PBXNativeTarget "Pods-WYAiOSTemplate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE09B97ED858C8F1F8D87D35A28A536 /* Debug */,
+				EDDDDB20F6F2069C328185BAE69AE56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EFE63799C33ADF9D72DDFF68F0D7903 /* Build configuration list for PBXNativeTarget "Pods-WYAPickerView_Tests" */ = {
+		51A384FE8ADB20FAB21F6B296FD9765E /* Build configuration list for PBXNativeTarget "WYAiOSTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4C1BDDA20E8A8DAA148288176F2A6B2 /* Debug */,
-				2F8C505DBC69425D4EC9267225E00562 /* Release */,
+				836E796FFC5C492948259871D37A94D1 /* Debug */,
+				4D496A9D073B3D2409B6FFEB86C317BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50507592E45870DBE274D50A2D3038E2 /* Build configuration list for PBXNativeTarget "WYAPickerView" */ = {
+		9C015D2AFBA3F0F6ECE50A11D44A18F9 /* Build configuration list for PBXNativeTarget "Pods-WYAiOSTemplate_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53B852044F33DD23FB0C486D27A30501 /* Debug */,
-				D5371216F3C608AE1BC7B2CBACF3FDAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9818482B4ADE24B74EDE179E3FCCEB14 /* Build configuration list for PBXNativeTarget "Pods-WYAPickerView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E084D983DAD7EC746FA85A97E794F92 /* Debug */,
-				5E2F9FD84D15DECCAB8B7F86168C25E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A1F452120C0583D3E3CC3059E6D63419 /* Build configuration list for PBXNativeTarget "WYAPickerView-WYAPickerView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1823E55167953F851409FC4AD8E34F4D /* Debug */,
-				196DAEAC8513F9F9038016FADB88E357 /* Release */,
+				41842762EE05C6A041B37143C72F055A /* Debug */,
+				BBE35D1D56D2FD2C133D7C907BE8BDBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

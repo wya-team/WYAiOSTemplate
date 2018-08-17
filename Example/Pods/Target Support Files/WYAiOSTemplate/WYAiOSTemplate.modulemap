@@ -1,0 +1,6 @@
+framework module WYAiOSTemplate {
+  umbrella header "WYAiOSTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

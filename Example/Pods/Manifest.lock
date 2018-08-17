@@ -1,16 +1,16 @@
 PODS:
-  - WYAPickerView (0.1.0)
+  - WYAiOSTemplate (0.1.0)
 
 DEPENDENCIES:
-  - WYAPickerView (from `../`)
+  - WYAiOSTemplate (from `../`)
 
 EXTERNAL SOURCES:
-  WYAPickerView:
-    :path: ../
+  WYAiOSTemplate:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  WYAPickerView: 6285fd40653cb57a06c01b432dfa585adf3e0576
+  WYAiOSTemplate: 4a36b6ee7c2cf1ac523f438a564c0e7baa17b58d
 
-PODFILE CHECKSUM: 603493da93cc99787c27b6373a49d9a7c61e168c
+PODFILE CHECKSUM: a127e31adc480820eff0ba9265157601d646348e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

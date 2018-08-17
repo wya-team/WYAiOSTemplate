@@ -1,0 +1,22 @@
+{
+  "name": "WYAiOSTemplate",
+  "version": "0.1.0",
+  "summary": "A short description of WYAiOSTemplate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/acct<blob>=0xE69D8EE4BF8AE68192/WYAiOSTemplate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "acct<blob>=0xE69D8EE4BF8AE68192": "Li.junheng@139.com"
+  },
+  "source": {
+    "git": "https://github.com/acct<blob>=0xE69D8EE4BF8AE68192/WYAiOSTemplate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WYAiOSTemplate/Classes/**/*"
+}
